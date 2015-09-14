@@ -60,7 +60,7 @@
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
+				<true/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -100,8 +100,6 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
@@ -275,8 +273,6 @@
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
@@ -344,7 +340,7 @@ do
 		mkdir -p $dirname
 	fi
 	name=$(basename $f .cha)
-	/Users/ghedlund/Documents/Phon/gitprojects/reorder-chat-tiers/reorder-chat-tiers.pl "$f" &gt; "$dirname/$name-reordered.cha" 
+	/Users/ghedlund/Documents/Phon/gitprojects/reorder-chat-tiers/reorder-chat-tiers.pl "$f" &gt; "$dirname/$name.cha" 
 done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -455,12 +451,10 @@ done</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:517.000000</string>
+				<string>309.000000:337.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -470,14 +464,14 @@ done</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>20BD09CB-A54B-494A-8C20-992A220F6D06</key>
+		<key>528C7B38-AE07-4799-92B6-2A7762412AC4</key>
 		<dict>
 			<key>from</key>
 			<string>CC2B658B-EF5D-49CD-9CF7-B4807A09931E - CC2B658B-EF5D-49CD-9CF7-B4807A09931E</string>
 			<key>to</key>
 			<string>817FD341-BFFC-4B35-8F27-E2E2943FB462 - 817FD341-BFFC-4B35-8F27-E2E2943FB462</string>
 		</dict>
-		<key>22FBBD7D-05DF-41DA-846A-88120E9E2FCE</key>
+		<key>F6C9C64E-0A3C-43D8-AA34-3CEB51677530</key>
 		<dict>
 			<key>from</key>
 			<string>817FD341-BFFC-4B35-8F27-E2E2943FB462 - 817FD341-BFFC-4B35-8F27-E2E2943FB462</string>
