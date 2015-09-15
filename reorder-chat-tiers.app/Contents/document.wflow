@@ -53,14 +53,14 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>recurse</key>
-					<false/>
+					<true/>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.GetFolderContents</string>
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
+				<false/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -101,14 +101,14 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:112.000000</string>
+				<string>309.000000:222.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -274,14 +274,14 @@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:154.000000</string>
+				<string>309.000000:434.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -375,12 +375,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:580.000000</string>
+				<string>309.000000:680.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -559,17 +557,15 @@ done</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:622.000000</string>
+				<string>309.000000:863.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -697,12 +693,10 @@ done</string>
 						<string>2</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:992.000000</string>
+				<string>309.000000:1053.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -712,28 +706,28 @@ done</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>14B337FE-0E13-40BB-820F-BA70E4305619</key>
-		<dict>
-			<key>from</key>
-			<string>46013B49-97ED-4D17-AEFA-0AAF89518178 - 46013B49-97ED-4D17-AEFA-0AAF89518178</string>
-			<key>to</key>
-			<string>4E60FD7F-E27E-40E3-A5E6-EA22B83B0BF3 - 4E60FD7F-E27E-40E3-A5E6-EA22B83B0BF3</string>
-		</dict>
-		<key>910FC73D-2244-44E9-968C-9FB434CB9F58</key>
+		<key>24E62413-E63D-4EC0-BE73-9C366AD72C1D</key>
 		<dict>
 			<key>from</key>
 			<string>817FD341-BFFC-4B35-8F27-E2E2943FB462 - 817FD341-BFFC-4B35-8F27-E2E2943FB462</string>
 			<key>to</key>
 			<string>0F640CA1-9AA8-4299-83D9-CECEC9D4FB25 - 0F640CA1-9AA8-4299-83D9-CECEC9D4FB25</string>
 		</dict>
-		<key>C79CD553-9013-4D15-8958-AA2B631C30E8</key>
+		<key>7FF038E6-8ED4-4197-892B-6547034D5585</key>
 		<dict>
 			<key>from</key>
 			<string>CC2B658B-EF5D-49CD-9CF7-B4807A09931E - CC2B658B-EF5D-49CD-9CF7-B4807A09931E</string>
 			<key>to</key>
 			<string>817FD341-BFFC-4B35-8F27-E2E2943FB462 - 817FD341-BFFC-4B35-8F27-E2E2943FB462</string>
 		</dict>
-		<key>EE8A0270-14C7-4A35-9E14-E161E55A21D6</key>
+		<key>D8941064-B2EB-4339-A5C9-55978F578798</key>
+		<dict>
+			<key>from</key>
+			<string>46013B49-97ED-4D17-AEFA-0AAF89518178 - 46013B49-97ED-4D17-AEFA-0AAF89518178</string>
+			<key>to</key>
+			<string>4E60FD7F-E27E-40E3-A5E6-EA22B83B0BF3 - 4E60FD7F-E27E-40E3-A5E6-EA22B83B0BF3</string>
+		</dict>
+		<key>FC2CAF6E-71BE-41E8-B64F-0186DB232958</key>
 		<dict>
 			<key>from</key>
 			<string>0F640CA1-9AA8-4299-83D9-CECEC9D4FB25 - 0F640CA1-9AA8-4299-83D9-CECEC9D4FB25</string>
